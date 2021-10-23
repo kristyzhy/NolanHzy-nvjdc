@@ -76,6 +76,18 @@ docker logs -f nolanjdc
 
 出现 NETJDC  started 即可 
 
+
+## 修改消息推送二维码
+```
+docker exec -it nolanjdc /bin/bash
+```
+
+```
+cd wwwroot/img
+```
+```
+wget -O push.png 你的二维码链接
+```
 ## 注意事项
 
 容器启动后第一次获取验证码的时候可能卡住刷新一下即可
