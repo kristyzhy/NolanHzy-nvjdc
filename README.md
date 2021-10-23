@@ -89,7 +89,7 @@ cd wwwroot/img
 ```
 wget -O push.png 你的二维码链接
 ```
-或者删除你的二维码
+或者删除二维码
 ```
 rm -f push.png
 ```
