@@ -1,5 +1,7 @@
 # nvjdc
 Net core5  vue3 puppeteer sharp的一次尝试
+##提示
+由于我自己的环境是centos x86，理论是支持arm的需要自行测试
 
 ## 安装教程
 1 执行命令
@@ -76,8 +78,11 @@ docker logs -f nolanjdc
 
 出现 NETJDC  started 即可 
 
-注意事项
+##注意事项
 
 容器启动后第一次获取验证码的时候可能卡住刷新一下即可
 
 Config.json 是配置文件 可以热更新 修改后不用重启容器
+
+##最后
+觉得不错。回来帮我点个stars
