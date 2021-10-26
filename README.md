@@ -77,22 +77,7 @@ docker logs -f nolanjdc
 出现 NETJDC  started 即可 
 
 
-## 修改消息推送二维码
-```
-docker exec -it nolanjdc /bin/bash
-```
 
-```
-cd wwwroot/img
-```
-下载你的二维码文件
-```
-wget -O push.png 你的二维码链接
-```
-或者删除二维码
-```
-rm -f push.png
-```
 ## 更新
 ```
 docker rm -f nolanjdc 
