@@ -62,7 +62,7 @@ sudo docker pull nolanhzy/nvjdc:0.2
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)"/Config.json:/app/Config/Config.json:ro \
 -v "$(pwd)"/.local-chromium:/app/.local-chromium  \
--it --privileged=true  nolanhzy/nvjdc:0.1 
+-it --privileged=true  nolanhzy/nvjdc:0.2 
 ```
 
 10查看 日志 
