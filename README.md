@@ -94,4 +94,4 @@ docker rm -f nolanhzy/nvjdc:0.1
 Config.json 是配置文件 可以热更新 修改后不用重启容器
 
 ## 最后
-觉得不错。回来帮我点个stars
+觉得不错。回来帮我点个star
