@@ -54,7 +54,7 @@ cd  /nolanjdc
 8拉镜像
 
 ```
-sudo docker pull nolanhzy/nvjdc:0.1
+sudo docker pull nolanhzy/nvjdc:0.2
 ```
 
 9启动镜像
@@ -93,6 +93,15 @@ wget -O push.png 你的二维码链接
 ```
 rm -f push.png
 ```
+## 更新
+```
+docker rm -f nolanjdc 
+```
+```
+docker rm -f nolanhzy/nvjdc:0.1
+```
+之前安装过 浏览器的可以不用再次安装。 配置文件里多了一些配置 建议拉取新的配置
+
 ## 注意事项
 
 容器启动后第一次获取验证码的时候可能卡住刷新一下即可
