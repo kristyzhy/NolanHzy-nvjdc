@@ -84,16 +84,17 @@ docker logs -f nolanjdc
 
 ## 更新
 
-
+删除容器
 ```
 docker rm -f nolanjdc 
 ```
+删除镜像
 ```
 docker rm -f nolanhzy/nvjdc:0.2
 ```
 
-直接从第七步骤开始  进入你以前下载过 浏览器 和JSON配置的文件夹中 
-如原来在 root 下 nolanjdc 文件夹中
+进入你以前下载过 浏览器 和JSON配置的文件夹中 
+如原来在 root 下 nolanjdc 文件夹中 下载的配置与浏览器
 ```
 cd /root/nolanjdc 
 ``` 
