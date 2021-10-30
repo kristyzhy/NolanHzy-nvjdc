@@ -58,7 +58,7 @@ cd  /nolanjdc
 8拉镜像
 
 ```
-sudo docker pull nolanhzy/nvjdc:0.2
+sudo docker pull nolanhzy/nvjdc:0.3
 ```
 
 9启动镜像
@@ -66,7 +66,7 @@ sudo docker pull nolanhzy/nvjdc:0.2
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)"/Config.json:/app/Config/Config.json:ro \
 -v "$(pwd)"/.local-chromium:/app/.local-chromium  \
--it --privileged=true  nolanhzy/nvjdc:0.2 
+-it --privileged=true  nolanhzy/nvjdc:0.3 
 ```
 
 10查看 日志 
@@ -83,14 +83,21 @@ docker logs -f nolanjdc
 
 
 ## 更新
+
+
 ```
 docker rm -f nolanjdc 
 ```
 ```
-docker rm -f nolanhzy/nvjdc:0.1
+docker rm -f nolanhzy/nvjdc:0.2
 ```
-之前安装过 浏览器的可以不用再次安装。 配置文件里多了一些配置 建议拉取新的配置
 
+直接从第七步骤开始  进入你以前下载过 浏览器 和JSON配置的文件夹中 
+如原来在 root 下 nolanjdc 文件夹中
+```
+cd /root/nolanjdc 
+``` 
+然后重复后续步骤即可
 ## 注意事项
 
 容器启动后第一次获取验证码的时候可能卡住刷新一下即可
