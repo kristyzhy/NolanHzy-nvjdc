@@ -2,12 +2,13 @@
 Net core5  vue3 puppeteer sharp的一次尝试
 
 ## 提示
-由于我自己的环境是centos x86，不支持arm
+由于我自己的环境是centos x86，arm并未测试
+更新自动五次滑块
 ## 支持的架构
 ![image](https://user-images.githubusercontent.com/87279659/137679751-7c2e901f-0429-4c5c-a6d2-120b8848048f.png)
 查看地址:https://github.com/dotnet/core/blob/main/release-notes/5.0/5.0-supported-os.m
 
-更新滑块
+
 ## 安装教程
 1 执行命令
 
