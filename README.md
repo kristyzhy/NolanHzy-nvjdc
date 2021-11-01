@@ -12,7 +12,7 @@ Net core5  vue3 puppeteer sharp的一次尝试
 一个文档你们Fork啥啊，，
 ## 支持的架构
 ![image](https://user-images.githubusercontent.com/87279659/137679751-7c2e901f-0429-4c5c-a6d2-120b8848048f.png)
-查看地址:https://github.com/dotnet/core/blob/main/release-notes/5.0/5.0-supported-os.m
+查看地址:https://github.com/dotnet/core/blob/main/release-notes/5.0/5.0-supported-os.md
 
 
 ## 安装教程
